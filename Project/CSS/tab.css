@@ -1,0 +1,105 @@
+/* Navigation section */
+
+#navbar{
+    flex-direction: column;
+    overflow: hidden;
+}
+#logo img{
+    width: 55px;
+}
+#navbar ul li{
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    padding: 2px 18px;
+}
+  
+
+
+
+/* Home section */
+
+
+#home{
+    height: 550px;
+}
+.h-primary{
+    font-size: 3rem;
+}
+
+#home p{
+    font-size: 1rem;
+}
+
+
+/* Services section */
+
+
+#services{
+    flex-direction: column;
+}
+
+#services .h-secondary{
+    font-size: 1.5rem;
+}
+
+/* Utility Class */
+
+.h-primary-2{
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Client section */
+
+
+#clients{
+    overflow: hidden;
+}
+
+#clients .client-logo-1 img{
+    width: 40px;
+}
+
+#clients .client-logo-2 img{
+    width: 70px;
+}
+
+#clients .client-logo-3 img{
+    width: 50px;
+}
+
+#clients .client-logo-4 img{
+    width: 70px;
+}
+
+#clients .client-items{
+    padding: 30px  50px;
+}
+
+/* Contact section */
+
+
+#contact-box input,
+    #contact-box textarea{
+        width: 100%;
+        padding: 0.2rem;
+        border: none;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        margin: 8px 0px;
+    }
+
+    #contact-box .form-group label{
+        font-size: 1rem;
+    }
+    
+    #contact-box form{
+        width: 60%;
+    }
+/* Footer Section */
+
+
+#foot{
+    padding: 15px 2px;
+}
